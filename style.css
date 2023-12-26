@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  height:1000vh;
+}
+.home-page{
+  background-image: url("Images/HomePage/ImageFixed.jpg");
+  min-height:100vh;
+  /* padding-top:200px; */
+  /* padding-bottom: 200px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  
+}
+
+header{
+  border:1px solid black;
+  position: fixed;
+  width:100%;
+  padding:30px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:red;
+  border-radius: 0 10px ;
+  background:transparent;
+  /* margin:10px; */
+  transition: 1s ease-in-out;
+  font-size: 20px;   
+  padding-right: 2px;
+  background-color: rgb(26, 25, 25);
+}
+header:hover{
+  background-color: rgb(33, 32, 32);
+}
+nav ul a{
+  text-decoration: none;
+  color:white;
+  margin-right: 50px;
+  transition: 1s;
+  
+}
+nav{
+  margin-left: 100px;
+}
+nav ul  :hover{
+  border-bottom: 2px solid grey;
+  padding-bottom: 3px;
+  font-size: 21px;
+}
+
+.log-sign a{
+  text-decoration: none;
+  margin-right: 6px;
+  border: 1px solid black;
+  color: white;
+  padding:7px 15px;
+  font-size: 17px;
+  border-radius: 15px;
+  transition: 1s ease-in-out;
+  
+}
+.log-sign  :hover{
+background-color: white;
+color: black;
+}
+.h1-text{
+  position: absolute;
+  color: white;
+  top:30%;
+  left:10%;
+  font-size: 100px;
+}
+.h2-text{
+  position: absolute;
+  color: rgb(246, 250, 249);
+  top:63%;
+  left:10%
+}
+
+  
+
+
